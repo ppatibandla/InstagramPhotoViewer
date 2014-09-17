@@ -16,5 +16,5 @@ Time Spent : 8hrs
 Next step:
  Working on making it look like real Instagram.
 
-![images/InstagramPhotoViewer.gif][images/InstagramPhotoViewer.gif]
+![images/InstagramPhotoViewer.gif](images/InstagramPhotoViewer.gif)
 
