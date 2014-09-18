@@ -40,7 +40,7 @@ public class InstagramPhotosAdapter extends ArrayAdapter<InstagramPhoto> {
 		Spannable caption = new SpannableString(photo.username + " " + photo.caption);
 		caption.setSpan(new ForegroundColorSpan(Color.BLUE), 0, photo.username.length(), 0);
 		tvCaption.setText(caption, BufferType.SPANNABLE);
-		Float aspect_ratio =  ((float)photo.imageWidth / photo.imageHeight);
+		Float aspect_ratio =  ((float)photo.imageHeight / photo.imageWidth);
 		Log.i("OnSuccess", "convertView width : " + String.valueOf(parent.getWidth()));
 		Log.i("OnSunccess", "Aspect ratio : " + String.valueOf(aspect_ratio));
 		imgPhoto.getLayoutParams().height = (int) (parent.getWidth() * aspect_ratio);
